@@ -13,6 +13,7 @@ export default class Form extends React.Component {
     const { status } = this.state;
     return (
       <form
+        name="Contact form"
         onSubmit={this.submitForm}
         action="https://formspree.io/mpzylblj"
         method="POST"
