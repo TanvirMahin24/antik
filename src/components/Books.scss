@@ -125,6 +125,14 @@
     width: 100%;
     height: auto;
     float: none;
+    .overlay {
+      h2 {
+        font-size: 1.4rem;
+      }
+      h4 {
+        font-size: 1rem;
+      }
+    }
   }
   .img-book {
     width: 100%;
