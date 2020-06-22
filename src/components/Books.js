@@ -4,7 +4,7 @@ import { Container } from "reactstrap";
 
 const Books = (props) => {
   const bookList = props.books.map((book) => (
-    <div key={book.id} className="col-md-4 mb-4 mx-auto">
+    <div key={book.id} className="col-md-4 bookItem mb-4 mx-auto">
       <div className="hovereffect">
         <img className="img-book" src={book.image} alt={book.name} />
         <div className="overlay">
