@@ -32,8 +32,8 @@ const App = () => {
       <div id="app" className="d-flex flex-column h-100">
         <NavBar />
         <Switch>
-          <Route path="/" exact component={Home} />
           <Route path="/about" exact component={About} />
+          <Route path="/" exact component={Home} />
           {/**<PrivateRoute path="/profile" component={Profile} />*/}
         </Switch>
         <Footer />
