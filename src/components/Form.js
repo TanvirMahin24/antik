@@ -17,6 +17,7 @@ export default class Form extends React.Component {
         action="https://formspree.io/mpzylblj"
         method="POST"
         id="contactForm"
+        data-netlify="true"
       >
         <div className="row">
           <div className="col-md-6">
