@@ -123,10 +123,12 @@
 @media screen and (max-width: 768px) {
   .hovereffect {
     width: 100%;
+    height: auto;
     float: none;
   }
   .img-book {
     width: 100%;
+    height: auto;
   }
   .wrapper .row {
     display: flex;
