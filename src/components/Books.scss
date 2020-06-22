@@ -120,3 +120,18 @@
   height: 500px;
 }
 /*Hover end*/
+@media screen and (max-width: 768px) {
+  .hovereffect {
+    height: 350px;
+    float: none;
+  }
+  .img-book {
+    height: 355px;
+  }
+  .wrapper .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

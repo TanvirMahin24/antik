@@ -46,4 +46,23 @@
   .nav-link.router-link-exact-active {
     border-left: 3px solid #fff !important;
   }
+  .antik-brand {
+    font-size: 1.5rem;
+  }
+  .nav-container {
+    .nav-link {
+      font-size: 1rem;
+      font-weight: lighter;
+    }
+    .antik-brand.navbar-brand {
+      margin: 0 0 0 10px;
+    }
+    .navbar-toggler {
+      margin-right: 5%;
+    }
+  }
+  .navbar.navbar-expand-md.navbar-dark.bg-transparent {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }

@@ -13,11 +13,11 @@ const ParallaxComponent = () => (
       bgImage={bgImg}
       strength={500}
       renderLayer={(percentage) => (
-        <div className="row pt-4">
-          <div className="col-md-5 pt-md-5 pt-0 mt-0 mt-md-5 mt-md-0  text-center">
-            <div className="mx-auto pt-md-5 pt-4 mt-5 mt-md-0 text-center">
+        <div className="row pt-4 pt-md-0">
+          <div className="col-md-5 pt-md-5 pt-0 mt-md-0  text-center">
+            <div className="mx-auto pt-md-5 pt-4 mt-3 mt-md-5 mt-md-0 text-center">
               <div
-                className={`mx-auto mt-4  ${styles.imgWrapper}`}
+                className={`mx-auto mt-md-4 mt-0  ${styles.imgWrapper}`}
                 style={{
                   borderRadius: "50%",
                   width: (1 - percentage) * 510,
@@ -28,7 +28,7 @@ const ParallaxComponent = () => (
                   <img
                     src={antikImg}
                     alt="antik mahmud"
-                    className="img-fluid rounded-circle"
+                    className="antikMainImage img-fluid rounded-circle"
                   />
                 </div>
               </div>
