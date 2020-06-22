@@ -1,5 +1,15 @@
 import React, { Fragment } from "react";
 import AntikPic from "../assets/antik.jpg";
+import skitto from "../assets/skitto.png";
+import cartoonpeople from "../assets/cartoonpeople.png";
+import idlc from "../assets/idlc.jpg";
+import ten from "../assets/10.jpg";
+import ae from "../assets/ae.png";
+import an from "../assets/an.png";
+import pr from "../assets/pr.png";
+import au from "../assets/ad.jpg";
+import workspace from "../assets/workspace.jpg";
+
 import "./About.scss";
 
 const About = () => {
@@ -61,51 +71,23 @@ const About = () => {
             <div className="work-with-section">
               <h1 className="text-light">I'VE WORKED WITH</h1>
               <div className="img-group">
+                <img src={skitto} alt="skitto" className="imgItem skitto" />
                 <img
-                  src="http://antik-mahmud.com/wp-content/themes/antik-mahmud/images/skitto.png"
-                  alt="skitto"
-                  className="imgItem skitto"
-                />
-                <img
-                  src="http://antik-mahmud.com/wp-content/themes/antik-mahmud/images/cartoonpeople.png"
-                  alt="skitto"
+                  src={cartoonpeople}
+                  alt="cartoon people"
                   className="imgItem"
                 />
-                <img
-                  src="http://antik-mahmud.com/wp-content/themes/antik-mahmud/images/idlc.jpg"
-                  alt="skitto"
-                  className="imgItem"
-                />
-                <img
-                  src="http://antik-mahmud.com/wp-content/themes/antik-mahmud/images/10minschool.jpg"
-                  alt="skitto"
-                  className="imgItem"
-                />
+                <img src={idlc} alt="idlc" className="imgItem" />
+                <img src={ten} alt="10 minutes school" className="imgItem" />
               </div>
             </div>
             <div className="work-with-section">
               <h1 className="text-light pt-5">SOFTWARE SKILLS</h1>
               <div className="img-group">
-                <img
-                  src="http://antik-mahmud.com/wp-content/themes/antik-mahmud/images/an.png"
-                  alt="skitto"
-                  className="imgItem"
-                />
-                <img
-                  src="http://antik-mahmud.com/wp-content/themes/antik-mahmud/images/ap.png"
-                  alt="skitto"
-                  className="imgItem"
-                />
-                <img
-                  src="http://antik-mahmud.com/wp-content/themes/antik-mahmud/images/ae.png"
-                  alt="skitto"
-                  className="imgItem"
-                />
-                <img
-                  src="http://antik-mahmud.com/wp-content/themes/antik-mahmud/images/audacity.jpg"
-                  alt="skitto"
-                  className="imgItem"
-                />
+                <img src={an} alt="Adobe Animate" className="imgItem" />
+                <img src={pr} alt="Premieer Pro" className="imgItem" />
+                <img src={ae} alt="After Effect" className="imgItem" />
+                <img src={au} alt="audacity" className="imgItem" />
               </div>
             </div>
             <div className="work-with-section pb-5">
@@ -117,11 +99,7 @@ const About = () => {
                   December 5th, 2019
                 </p>
               </div>
-              <img
-                src="http://antik-mahmud.com/wp-content/themes/antik-mahmud/images/workspace.jpg"
-                alt="workspace"
-                className="img-fluid"
-              />
+              <img src={workspace} alt="workspace" className="img-fluid" />
             </div>
           </div>
         </div>

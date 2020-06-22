@@ -5,7 +5,7 @@ import bgImg from "../assets/speaker.jpg";
 import shirt from "../assets/shirt.jpg";
 import youtube from "../assets/youtube.jpg";
 
-import antikImg from "../assets/book cartoon 1.jpg";
+import antikImg from "../assets/bookcartoon1.jpg";
 
 const ParallaxComponent = () => (
   <div style={{ height: "100vh" }}>
