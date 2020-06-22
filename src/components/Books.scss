@@ -1,0 +1,122 @@
+.wrapper {
+  position: relative;
+  top: 0;
+  background: linear-gradient(45deg, #00afef 0%, #0970b9 100%);
+  display: block;
+}
+.line {
+  width: 170px;
+  height: 3px;
+  background: blanchedalmond;
+  margin: 0 auto;
+}
+/*Hover*/
+.hovereffect {
+  box-shadow: 5px 5px 5px rgba(10, 10, 10, 0.6);
+  height: 500px;
+  float: right;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+
+.hovereffect h2 {
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+  background: none;
+  -webkit-transform: translatey(-100px);
+  -ms-transform: translatey(-100px);
+  transform: translatey(-100px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.hovereffect h4 {
+  padding-right: 15px;
+  padding-left: 15px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 24px;
+  font-weight: lighter;
+  background: none;
+
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.hovereffect a.info {
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  background: white;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  margin: 20px 0 0;
+  padding: 9px 15px;
+  border-radius: 4px;
+  i {
+    color: rgb(22, 21, 21);
+    font-size: 30px;
+    &:hover {
+      color: #00afef;
+    }
+  }
+}
+
+.hovereffect:hover img {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.hovereffect:hover h2,
+.hovereffect:hover a.info {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -ms-transform: translatey(0);
+  -webkit-transform: translatey(0);
+  transform: translatey(0);
+}
+
+.hovereffect:hover a.info {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.img-book {
+  height: 500px;
+}
+/*Hover end*/

@@ -1,0 +1,116 @@
+.about-bg {
+  background-image: url(../assets/bgCustom.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  .antikImgAbout {
+    margin-top: 120px;
+    padding: 7px;
+    background: linear-gradient(45deg, #00afef8c 0%, #0970b9a2 100%);
+    //box-shadow: 5px 5px 5px rgba(10, 10, 10, 0.6);
+  }
+}
+
+.about-heading > p {
+  font-size: 24px;
+  font-weight: bold;
+}
+.about-txt {
+  p {
+    font-size: 1.3rem;
+    font-weight: normal;
+    text-align: justify;
+  }
+}
+.about-content-box {
+  padding-top: 120px;
+  padding-bottom: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
+  color: #fff;
+}
+
+.about-bg-layer {
+  background: linear-gradient(45deg, #00afefce 0%, #0970b9dc 100%);
+  margin: 0px;
+}
+.about-bg-layer2 {
+  background: linear-gradient(-45deg, #0970b9dc 0%, #00afefce 100%);
+  margin: 0px;
+}
+
+.socialIcons {
+  padding-top: 4%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  a {
+    text-decoration: none;
+    .fab {
+      //background: linear-gradient(45deg, #00afefc2 0%, #0970b9d5 100%);
+      //padding: 5px;
+      border-radius: 7px;
+      text-shadow: 5px 5px 5px rgba(10, 10, 10, 0.5);
+      color: #fff;
+      font-size: 3rem;
+      margin-right: 20px;
+      &:hover {
+        //padding: 6px;
+        border-radius: 15px;
+        transform: scale(1.1);
+        color: #00afefce;
+        transition: color 0.3s ease-in-out;
+      }
+    }
+  }
+}
+
+.leftAboutHeader {
+  background: none;
+  position: fixed;
+}
+
+.work-with-section {
+  padding-left: 70px;
+  padding-right: 70px;
+  .img-group {
+    display: flex;
+    justify-content: space-around;
+
+    .imgItem {
+      width: 20%;
+      &.skitto {
+        background: #fff;
+      }
+    }
+  }
+}
+.about-bg2 {
+  background-image: url("../assets/v antik.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+@media screen and (max-width: 768px) {
+  .leftAboutHeader {
+    position: relative;
+    margin-bottom: 40px;
+  }
+  .about-content-box {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .work-with-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .about-bg-layer {
+    padding-top: 50px;
+    padding: 7px;
+    background: linear-gradient(45deg, #00afefc0 0%, #0970b9bb 100%);
+  }
+  .about-content-box {
+    padding-top: 50px;
+  }
+}
+///asdf

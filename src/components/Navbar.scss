@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+
+.nav-container {
+  position: absolute;
+  width: 100%;
+  background: transparent !important;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  .nav-link {
+    font-family: "Berkshire Swash", cursive;
+    color: #fff !important;
+    border-bottom: none !important;
+    transition: color 0.4s ease-in-out;
+    font-size: 1.5rem;
+    &:hover {
+      transition: color 0.4s ease-in-out;
+      color: rgb(68, 66, 66) !important;
+    }
+  }
+}
+.navbar {
+  box-shadow: none !important;
+}
+.antik-brand {
+  font-family: "Berkshire Swash", cursive;
+  font-size: 2rem;
+  color: #fff !important;
+}
+
+.navbar-nav:last-child {
+  background: none !important;
+  box-shadow: none !important;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  cursor: pointer !important;
+}
+.loginLink {
+  cursor: pointer !important;
+}
+@media screen and (max-width: 768px) {
+  .navbar {
+    background: linear-gradient(45deg, #00afefec 0%, #0970b9f1 100%) !important;
+  }
+
+  .nav-link.router-link-exact-active {
+    border-left: 3px solid #fff !important;
+  }
+}
